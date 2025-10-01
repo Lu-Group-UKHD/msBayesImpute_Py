@@ -1,0 +1,27 @@
+# [project]
+# authors = [{ name = "Jiaojiao He", email = "jiaojiao.he918@gmail.com" }]
+# description = "msBayesImpute: a versatile framework for addressing missing values in biomedical mass-spectrometry proteomic data."
+# name = "msbayesimpute"
+# dynamic = ["version"]
+# readme = "README.md"
+# requires-python = ">=3.11"
+# classifiers = [
+#     "Programming Language :: Python :: 3",
+#     "Operating System :: OS Independent",
+# ]
+# dependencies = [
+#   "pandas",
+#   "numpy",
+#   "torch",
+#   "pyro",
+#   "scikit-learn",
+#   "scipy", 
+#   "seaborn",
+#   "matplotlib",
+#   "sys", 
+#   "time"
+# ]
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools", "wheel"]

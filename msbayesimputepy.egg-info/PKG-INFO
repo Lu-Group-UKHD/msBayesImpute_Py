@@ -1,0 +1,55 @@
+Metadata-Version: 2.4
+Name: msbayesimputepy
+Version: 0.1.0
+Summary: msBayesImpute: a versatile framework for addressing missing values in biomedical mass-spectrometry proteomic data.
+Author: Jiaojiao He
+Author-email: jiaojiao.he918@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy==1.26.2
+Requires-Dist: torch
+Requires-Dist: pyro-ppl>=1.9.0
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Mass Spectrometry Bayesian Imputation (msBayesImpute)
+
+msBayesImpute is a versatile framework for handling missing values in Mass Spectrometry proteomic data based on Pyro (a probabilistic progamming language). 
+msBayesImpute integrates probabilistic dropout models into Bayesian matrix factorization in a data-driven manner. 
+Its advantage is taking into account the mixed patterns of missing at random (MAR) and missing not at random (MNAR).
+
+## Main folder sturcture
+```bash
+msbayesimputepy 
+|---data # one example data (HeLa cell line proteomics data)
+|---msbayesimputepy # Python scripts, also name of msBayesImpute Python version
+|---msbayesimputepy.egg-info # metadata about the Python package
+|---dist # the compressed Python package
+|---vignettes # examples of msBayesImpute execution in Python (quick_guide_python.ipynb)
+│   README.md 
+|   requirements.txt # package dependencies msbayesimputepy needs
+```
+
+## Installation
+Currently, as the Python package is confidential, only installation locally is feasible. The lab members 
+can copy the folder from my labtop. Alternatively, I will push the whole folder to our lab's Github repository soon. 
+You can download it there.
+
+### Python package
+```r
+pip install dist/msbayesimputepy-0.1.0-py3-none-any.whl
+```
+

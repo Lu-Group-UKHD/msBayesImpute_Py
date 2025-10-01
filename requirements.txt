@@ -1,0 +1,8 @@
+pandas
+numpy==1.26.2
+torch
+pyro-ppl>=1.9.0
+scikit-learn
+scipy
+seaborn
+matplotlib
