@@ -1,4 +1,4 @@
-# msBayesImpute
+# msBayesImpute (Python version)
 
 <img width="2802" height="1598" alt="msBayesImpute architecture" src="https://github.com/user-attachments/assets/1b4f541f-57b9-40c0-9e0e-0ab35029ac44" />
 
